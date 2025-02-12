@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 139037578}
   m_Layer: 0
   m_Name: Bird (7)
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,9 +159,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &139037579
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -255,7 +254,7 @@ GameObject:
   - component: {fileID: 187746142}
   m_Layer: 0
   m_Name: Bird (4)
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -276,9 +275,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &187746143
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -376,7 +374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &200878234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,7 +489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &281066795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -717,7 +715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &431593524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1148,7 +1146,7 @@ GameObject:
   - component: {fileID: 1009042794}
   m_Layer: 0
   m_Name: Bird (2)
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1169,9 +1167,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &1009042795
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1265,7 +1262,7 @@ GameObject:
   - component: {fileID: 1021928443}
   m_Layer: 0
   m_Name: Bird (8)
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1286,9 +1283,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &1021928444
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1386,7 +1382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1035599775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1528,7 +1524,7 @@ GameObject:
   - component: {fileID: 1091452434}
   m_Layer: 0
   m_Name: Bird
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1549,9 +1545,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &1091452435
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1746,7 +1741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1194384171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1858,7 +1853,7 @@ GameObject:
   - component: {fileID: 1275663075}
   m_Layer: 0
   m_Name: Bird (1)
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1879,9 +1874,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &1275663076
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2103,7 +2097,7 @@ GameObject:
   - component: {fileID: 1340145778}
   m_Layer: 0
   m_Name: Bird (3)
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2124,9 +2118,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &1340145779
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2302,6 +2295,122 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377703132}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1459793744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1459793749}
+  - component: {fileID: 1459793748}
+  - component: {fileID: 1459793747}
+  - component: {fileID: 1459793746}
+  - component: {fileID: 1459793745}
+  m_Layer: 0
+  m_Name: Bird (9)
+  m_TagString: BIRD
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1459793745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459793744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21b3c915e0274e14bb88eca9bdcde27e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linearVelocity: {x: 0, y: 0, z: 0}
+  angularVelocity: 0
+  maxSpeed: 20
+  maxAngularVelocity: 45
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
+--- !u!135 &1459793746
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459793744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1459793747
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459793744}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1459793748
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459793744}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1459793749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459793744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.95, y: -2.0852551, z: 4.97}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1554119314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,7 +2624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1637197045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2631,7 +2740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1735539294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2744,7 +2853,7 @@ GameObject:
   - component: {fileID: 1742899871}
   m_Layer: 0
   m_Name: Bird (6)
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2765,9 +2874,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &1742899872
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2865,7 +2973,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1751371473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3213,7 +3321,7 @@ GameObject:
   - component: {fileID: 2092014979}
   m_Layer: 0
   m_Name: Bird (5)
-  m_TagString: bird
+  m_TagString: BIRD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3234,9 +3342,8 @@ MonoBehaviour:
   angularVelocity: 0
   maxSpeed: 20
   maxAngularVelocity: 45
-  myTarget: {fileID: 281066794}
-  avoidObj: 0
-  myCohereTarget: {fileID: 1091452433}
+  myTarget: {fileID: 1091452433}
+  primaryGoal: {fileID: 1929359991}
 --- !u!135 &2092014980
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3334,7 +3441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2101585448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3482,7 +3589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2110539340
 BoxCollider:
   m_ObjectHideFlags: 0

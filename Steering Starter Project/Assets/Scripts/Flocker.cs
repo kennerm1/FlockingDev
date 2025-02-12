@@ -4,31 +4,27 @@ using UnityEngine;
 
 public class Flocker : Kinematic
 {
-    public bool avoidObj = false;
-    public GameObject myCohereTarget;
+    public GameObject primaryGoal;
     BlendedSteering mySteering;
-    Kinematic[] birds;
-    PrioritySteering myAdvancedSteering;
+    Kinematic[] kinematicBirds;
 
     void Start()
     {
         Separation separate = new Separation();
         separate.character = this;
-        GameObject[] goBirds = GameObject.FindGameObjectsWithTag("birds");
-        birds = new Kinematic[goBirds.Length - 1];
-        int j = 0;
+        GameObject[] birdTime = GameObject.FindGameObjectsWithTag("BIRD");
+        kinematicBirds = new Kinematic[birdTime.Length - 1];
 
-        for (int i = 0; i < goBirds.Length; i++)
+        int x = 0;
+        for (int i = 0; i < birdTime.Length - 1; i++)
         {
-            if (goBirds[i] == this)
+            if (birdTime[i] == this)
             {
                 continue;
             }
-
-            birds[j++] = goBirds[i].GetComponent<Kinematic>();
+            kinematicBirds[x++] = birdTime[i].GetComponent<Kinematic>();
         }
-
-        separate.targets = birds;
+        separate.targets = kinematicBirds;
 
         LookWhereGoing myRotateType = new LookWhereGoing();
         myRotateType.character = this;
@@ -36,20 +32,20 @@ public class Flocker : Kinematic
         Separation separation = new Separation();
         separation.character = this;
 
-        Arrive cohere = new Arrive();
-        cohere.character = this;
-        cohere.target = myCohereTarget;
+        Arrive arrive = new Arrive();
+        arrive.character = this;
+        arrive.target = primaryGoal;
 
         mySteering = new BlendedSteering();
         mySteering.behaviors = new BehaviorAndWeight[3];
 
         mySteering.behaviors[0] = new BehaviorAndWeight();
         mySteering.behaviors[0].behavior = separate;
-        mySteering.behaviors[0].weight = 1f; //3
+        mySteering.behaviors[0].weight = 1f;
 
         mySteering.behaviors[1] = new BehaviorAndWeight();
-        mySteering.behaviors[1].behavior = cohere;
-        mySteering.behaviors[1].weight = 1f; //.5
+        mySteering.behaviors[1].behavior = arrive;
+        mySteering.behaviors[1].weight = 1f;
 
         mySteering.behaviors[2] = new BehaviorAndWeight();
         mySteering.behaviors[2].behavior = myRotateType;
