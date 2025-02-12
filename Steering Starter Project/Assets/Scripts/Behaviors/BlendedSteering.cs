@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BehaviorAndWeight
 {
-    public SteeringBehavior behavior = null;
-    public float weight = 0f;
+    public SteeringBehavior behavior;
+    public float weight;
 }
 
 public class BlendedSteering
@@ -21,11 +21,11 @@ public class BlendedSteering
 
         foreach (BehaviorAndWeight b in behaviors)
         {
-            SteeringOutput s = b.behavior.getSteering();
-            if (s != null)
+            SteeringOutput output = b.behavior.getSteering();
+            if (output != null)
             {
-                result.angular += s.angular * b.weight;
-                result.linear += s.linear * b.weight;
+                result.angular += output.angular * b.weight;
+                result.linear += output.linear * b.weight;
             }
         }
 
